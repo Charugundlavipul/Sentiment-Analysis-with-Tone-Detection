@@ -28,6 +28,7 @@ The dataset was scraped from Twitter in February 2015 and contains pre-labeled s
 - [How to Use](#how-to-use)
 - [Limitations](#limitations)
 - [References](#references)
+- [Images](#images)
 
 ---
 
@@ -172,3 +173,21 @@ Three models were evaluated using **stratified K-Fold cross-validation** with **
 1. Lopamudra Dey, Sanjay Chakraborty, Anuraag Biswas, Beepa Bose, Sweta Tiwari, "Sentiment Analysis of Review Datasets Using Naïve Bayes' and K-NN Classifier", International Journal of Information Engineering and Electronic Business (IJIEEB), Vol.8, No.4, pp.54-62, 2016.
 2. Yohanssen Pratama et al 2019 J. Phys.: Conf. Ser. 1175 012102
 3. M.Govindarajan, December 2013, Sentiment Analysis of Movie Reviews using Hybrid
+
+## Images
+
+### Tweet Analysis:
+![image](https://github.com/user-attachments/assets/fb1b6214-b4aa-4522-b777-af89221e8357)
+### Reason Distribution:
+![image](https://github.com/user-attachments/assets/f075dea6-4565-47a1-ae0f-7caa231fced2)
+### Confusion Matrix (Average across 5-folds):
+![image](https://github.com/user-attachments/assets/cc80416d-058b-498f-ad6c-ef3d790f8ef6)
+### Model Performance Comparision:
+![image](https://github.com/user-attachments/assets/ce0a8b33-784f-4444-b46e-38c787b51611)
+### Key Metrics:
+![image](https://github.com/user-attachments/assets/9ab93964-5cf0-4350-be53-90842bce5f2b)
+### User Interaction:
+![image](https://github.com/user-attachments/assets/c6fb68f4-2700-44c5-a360-9e8e6904dd51)
+
+
+
