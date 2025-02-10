@@ -1,18 +1,11 @@
 # Sentiment Analysis with Tone Detection
 
-# Overview
+## Overview
 
-This project focuses on performing sentiment analysis on tweets mentioning major U.S. airlines, aiming to classify them into three primary categories: **Positive**, **Neutral**, and **Negative**. Beyond basic sentiment classification, the project also delves into categorizing negative tweets by specific reasons, such as "late flight," "rude service," or other customer complaints. The analysis leverages a **Naïve Bayes classifier** as the core model, with additional exploration of other algorithms like **Gaussian Naïve Bayes** and **K-Nearest Neighbors (KNN)** for comparative evaluation.
+This project performs sentiment analysis on tweets mentioning major U.S. airlines, classifying them into **Positive**, **Neutral**, and **Negative** categories. It also categorizes negative tweets by specific reasons like "late flight" or "rude service." The model, trained using a **Naïve Bayes classifier**, is evaluated using metrics such as **F1-score**, **Precision**, **Recall**, and **Accuracy**. To address class imbalance, **SMOTE** is applied.
 
-The performance of the models is rigorously assessed using key metrics such as **F1-score**, **Precision**, **Recall**, and **Accuracy**. To address the inherent class imbalance in the dataset, **SMOTE (Synthetic Minority Oversampling Technique)** is employed, ensuring balanced representation across sentiment classes during model training. Among the evaluated models, **Multinomial Naïve Bayes** emerges as the top performer, demonstrating superior accuracy and robustness in handling high-dimensional text data represented via **TF-IDF vectorization**.
+The system incorporates **Tone detection (Sarcasm)** to identify nuanced tones and provides real-time predictions for user-inputted tweets. Tweets are preprocessed using techniques like stopword removal, URL stripping, and emoji handling before being analyzed.
 
-In addition to sentiment classification, the project incorporates a **sarcasm detection mechanism** to identify nuanced tones in user inputs. This feature enhances the system's ability to interpret subtle expressions, such as sarcasm, which are often challenging to detect in text-based sentiment analysis. The final deployed model provides both sentiment predictions and tone verdicts, offering a comprehensive understanding of user feedback.
-
-The project also includes an interactive real-time prediction workflow, allowing users to input custom tweets or text for analysis. The system preprocesses the input using techniques like stopword removal, URL stripping, and emoji handling, ensuring consistent and accurate predictions. This dual-layered approach—combining sentiment and tone analysis—makes the system a powerful tool for understanding customer feedback on social media platforms like Twitter.
-
-The dataset was scraped from Twitter in February 2015 and contains pre-labeled sentiment categories. The project includes data preprocessing, exploratory data analysis (EDA), feature engineering, and model evaluation.
-
----
 
 ## Table of Contents
 
